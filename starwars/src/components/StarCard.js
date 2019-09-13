@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Body = styled.div`
   width: 400px;
-  background-color: #D6E3E3;
+  background-color: #d6e3e3;
   margin: 30px;
   flex-direction: column;
   border-radius: 30px;
@@ -23,8 +23,6 @@ function StarCard(props) {
         <Header>
           <h2>Name: {props.name}</h2>
         </Header>
-        <p>Gender: {props.gender}</p>
-
         <p>Eye-Color: {props.eye}</p>
         <p>Hair-Color: {props.hair}</p>
         <p>Height: {props.height}cm</p>
